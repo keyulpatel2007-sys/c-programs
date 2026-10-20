@@ -16,6 +16,8 @@ int main()
    while(n--)
    {
       int a,b,c;
+
+      int s=0;
       cin>>a>>b>>c;
 
       cout<<c-(c%a+(a-b))<<endl;
